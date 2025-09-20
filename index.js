@@ -3,19 +3,12 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_", frames: [[0,1017,760,760],[762,1017,756,756],[1001,0,715,750],[0,0,999,1015]]},
-		{name:"index_atlas_2", frames: [[799,103,50,101],[714,263,57,101],[742,103,55,101],[672,367,94,101],[763,470,79,101],[0,672,1610,102],[672,0,40,365],[714,0,26,261],[844,412,23,219],[0,0,670,670],[672,470,89,101],[829,206,44,101],[773,206,54,101],[825,309,54,101],[742,0,55,101],[799,0,52,101],[768,366,55,101]]}
+		{name:"index_atlas_", frames: [[762,1088,756,756],[1080,0,715,750],[0,1088,760,760],[0,0,1078,1086]]},
+		{name:"index_atlas_2", frames: [[799,103,50,101],[714,263,57,101],[742,103,55,101],[672,367,94,101],[763,470,79,101],[0,672,1610,102],[672,0,40,365],[714,0,26,261],[0,0,670,670],[844,412,23,219],[672,470,89,101],[829,206,44,101],[773,206,54,101],[825,309,54,101],[742,0,55,101],[799,0,52,101],[768,366,55,101]]}
 ];
 
 
 // symbols:
-
-
-
-(lib.CachedTexturedBitmap_1 = function() {
-	this.initialize(ss["index_atlas_"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
 
 
 
@@ -56,54 +49,61 @@ lib.ssMetadata = [
 
 (lib.CachedTexturedBitmap_15 = function() {
 	this.initialize(ss["index_atlas_"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedTexturedBitmap_16 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_17 = function() {
 	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_18 = function() {
 	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_19 = function() {
 	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_2 = function() {
 	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedTexturedBitmap_20 = function() {
+	this.initialize(ss["index_atlas_2"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedTexturedBitmap_21 = function() {
+	this.initialize(ss["index_atlas_"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedTexturedBitmap_24 = function() {
 	this.initialize(ss["index_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_24 = function() {
+(lib.CachedTexturedBitmap_25 = function() {
 	this.initialize(ss["index_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -179,7 +179,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Katman_1
-	this.instance = new lib.CachedTexturedBitmap_20();
+	this.instance = new lib.CachedTexturedBitmap_21();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
 
@@ -193,7 +193,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,357.5,375);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Katman_1
-	this.instance = new lib.CachedTexturedBitmap_19();
+	this.instance = new lib.CachedTexturedBitmap_20();
 	this.instance.parent = this;
 	this.instance.setTransform(-6,-109.5,0.5,0.5);
 
@@ -206,7 +206,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,357.5,375);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Katman_1
-	this.instance = new lib.CachedTexturedBitmap_18();
+	this.instance = new lib.CachedTexturedBitmap_19();
 	this.instance.parent = this;
 	this.instance.setTransform(-6.5,-130.45,0.5,0.5);
 
@@ -219,7 +219,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,357.5,375);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Katman_1
-	this.instance = new lib.CachedTexturedBitmap_17();
+	this.instance = new lib.CachedTexturedBitmap_18();
 	this.instance.parent = this;
 	this.instance.setTransform(-10,-142.1,0.5,0.5);
 
@@ -232,7 +232,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,357.5,375);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Katman_1
-	this.instance = new lib.CachedTexturedBitmap_16();
+	this.instance = new lib.CachedTexturedBitmap_17();
 	this.instance.parent = this;
 	this.instance.setTransform(-370.45,-23.45,0.4602,0.4602);
 
@@ -386,7 +386,7 @@ p.nominalBounds = new cjs.Rectangle(-61.8,-28.1,113.5,17.1);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	// Layer_6
-	this.instance_8 = new lib.CachedTexturedBitmap_1();
+	this.instance_8 = new lib.CachedTexturedBitmap_24();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(60,60,0.5,0.5);
 
@@ -397,16 +397,16 @@ p.nominalBounds = new cjs.Rectangle(-61.8,-28.1,113.5,17.1);
 	this.tarih_txt.name = "tarih_txt";
 	this.tarih_txt.textAlign = "center";
 	this.tarih_txt.lineHeight = 21;
-	this.tarih_txt.lineWidth = 247;
+	this.tarih_txt.lineWidth = 226;
 	this.tarih_txt.parent = this;
-	this.tarih_txt.setTransform(250.25,331.95);
+	this.tarih_txt.setTransform(249,322.55);
 
 	this.timeline.addTween(cjs.Tween.get(this.tarih_txt).wait(1));
 
 	// Layer_5
 	this.instance_9 = new lib.KDR();
 	this.instance_9.parent = this;
-	this.instance_9.setTransform(275.6,170,1,1,0,0,0,19.5,-23.4);
+	this.instance_9.setTransform(273.6,172,1,1,0,0,0,19.5,-23.4);
 
 	this.instance_10 = new lib.CachedTexturedBitmap_14();
 	this.instance_10.parent = this;
@@ -470,14 +470,14 @@ p.nominalBounds = new cjs.Rectangle(-61.8,-28.1,113.5,17.1);
 	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(1));
 
 	// Katman_5
-	this.instance_24 = new lib.CachedTexturedBitmap_24();
+	this.instance_24 = new lib.CachedTexturedBitmap_25();
 	this.instance_24.parent = this;
-	this.instance_24.setTransform(0.3,-3.7,0.5,0.5);
+	this.instance_24.setTransform(-19.45,-21.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_24).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-197.7,241.1,706.8,267.9);
+p.nominalBounds = new cjs.Rectangle(-199.7,228.5,719.3,293);
 // library properties:
 lib.properties = {
 	id: '3AC1DD984A283B448D568D178535DB48',
