@@ -680,7 +680,7 @@ if (reversed == null) { reversed = false; }
 	this.tarih_txt.lineWidth = 226;
 	this.tarih_txt.parent = this;
 	this.tarih_txt.setTransform(249,322.55);
-	this.tarih_txt.shadow = new cjs.Shadow("rgba(51,51,51,1)",3,3,4);
+	this.tarih_txt.shadow = new cjs.Shadow("rgba(102,102,102,1)",3,3,4);
 
 	this.timeline.addTween(cjs.Tween.get(this.tarih_txt).wait(1));
 
